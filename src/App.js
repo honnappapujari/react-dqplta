@@ -4,7 +4,6 @@ import Home from './Home.js';
 import { Button } from 'antd';
 import ContactUs from './ContactUs.js';
 import AboutMe from './AboutMe.js';
-
 import { Routes, Route, Link } from 'react-router-dom';
 import 'antd/dist/reset.css';
 import './style.css';
@@ -16,6 +15,7 @@ export default function App() {
   }
   return (
     <div>
+      {/* <img src={} height={200}/> */}
       <Link to="/">
         <Button>Home</Button>
       </Link>
